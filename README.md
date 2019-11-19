@@ -4,3 +4,5 @@ This is a sample how to call external server api when your computer is behind a 
 
 This is just for a personal memorization, but it might help someone...
 
+* see Main class in src/java/main
+* gradle proxy setting is in gradle.properties
