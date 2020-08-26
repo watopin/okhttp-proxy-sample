@@ -15,8 +15,9 @@ import okhttp3.Route;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		apiCallTest();
+		
 	}
 	
 	public static void apiCallTest() {
@@ -39,6 +40,12 @@ public class Main {
 		
 	}
 	
+	/**
+	 * create http client with proxy authentication.
+	 * @param username username of proxy
+	 * @param password password of proxy
+	 * @return http client object
+	 */
 	public static OkHttpClient provideHttpClient(String username, String passwd) {
 		Authenticator auth = new Authenticator() {
 			
